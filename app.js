@@ -8,9 +8,9 @@ const client = require("@mailchimp/mailchimp_marketing");
 // const SERVERVALUE=process.env.SERVERVALUE;
 // const LISTKEY=process.env.LISTKEY;
 
-const APIKEYVALUE=config.APIKEYVALUE;
-const SERVERVALUE=config.SERVERVALUE;
-const LISTKEY=config.LISTKEY;
+// const APIKEYVALUE=config.APIKEYVALUE;
+// const SERVERVALUE=config.SERVERVALUE;
+// const LISTKEY=config.LISTKEY;
 client.setConfig({
   apiKey: APIKEYVALUE,
   server: SERVERVALUE,
