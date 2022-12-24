@@ -3,14 +3,14 @@ const bodyParser = require('body-parser');
 const https = require("https");
 const app = express();
 const client = require("@mailchimp/mailchimp_marketing");
-require('dotenv').config()
+// require('dotenv').config()
 // const APIKEYVALUE=process.env.APIKEYVALUE;
 // const SERVERVALUE=process.env.SERVERVALUE;
 // const LISTKEY=process.env.LISTKEY;
 
-const APIKEYVALUE="3ee6fcac6367271607b783ea63c6ebed-us21";
-const SERVERVALUE="us21";
-const LISTKEY="e9a92fdabf";
+const APIKEYVALUE=config.APIKEYVALUE;
+const SERVERVALUE=config.SERVERVALUE;
+const LISTKEY=config.LISTKEY;
 client.setConfig({
   apiKey: APIKEYVALUE,
   server: SERVERVALUE,
