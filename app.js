@@ -42,10 +42,7 @@ app.post("/", function(req, res) {
     }
   };
   run();
-  //   if(response.status==='subscribed')
-  //   res.send("OK");
-  //   else
-  //   res.send("Not ok");
+
 });
 
 app.post("/failure",function(req,res){
@@ -54,7 +51,3 @@ app.post("/failure",function(req,res){
 app.listen(process.env.PORT || 3000, function() {
   console.log("Server connected");
 });
-
-// Api key = e63f95080fc53fc02abc084a97def6fb-us21
-
-// audience id = e9a92fdabf
